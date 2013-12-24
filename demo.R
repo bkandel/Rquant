@@ -7,7 +7,7 @@ png('google.png', width=600, height=400)
 barChart(GOOG['2013'])
 dev.off()
 # create custom fund
-myshares=list(Google=50, Apple=25, Coke=30, GM=125, Exxon=45)
+myshares=list(Google=5, Apple=25, Coke=30, GM=125, Exxon=45)
 mysymbols=c('GOOG', 'AAPL', 'COKE', 'GM', 'XOM')
 getSymbols(mysymbols, src='yahoo')
 myfund <- rep(0, dim(GOOG['2013'])[1])

@@ -17,7 +17,7 @@ dev.off()
 
 Now, we can create a custom fund, with different numbers of shares for different stocks: 
 ```r
-myshares=list(Google=50, Apple=25, Coke=30, GM=125, Exxon=45)
+myshares=list(Google=5, Apple=25, Coke=30, GM=125, Exxon=45)
 ``` 
 As before, we can grab the stock values from Yahoo finance:
 ```r
