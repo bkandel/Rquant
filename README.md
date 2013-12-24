@@ -14,6 +14,7 @@ barChart(GOOG['2013'])
 dev.off()
 ```
 ![sample chart](google.png)
+
 Now, we can create a custom fund, with different numbers of shares for different stocks: 
 ```r
 myshares=list(Google=50, Apple=25, Coke=30, GM=125, Exxon=45)
@@ -34,5 +35,7 @@ png('myfund.png', width=600, height=400)
 plot(myfund, main='Value of fund vs. date')
 dev.off()
 ```
+![our fund](myfund.png)
+
 Expanding this so that the fund has different numbers of shares at different points in time or has things other than stock is straighforward. 
 
