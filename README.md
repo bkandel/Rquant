@@ -13,7 +13,7 @@ png('google.png', width=600, height=400)
 barChart(GOOG['2013'])
 dev.off()
 ```
-![sample chart](google.png)
+![sample chart](https://raw.github.com/bkandel/Rquant/master/google.png)
 
 Now, we can create a custom fund, with different numbers of shares for different stocks: 
 ```r
